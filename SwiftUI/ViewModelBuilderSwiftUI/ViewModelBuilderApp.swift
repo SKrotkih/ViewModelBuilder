@@ -3,10 +3,9 @@ import ViewModel
 
 @main
 struct ResultBuilderApp: App {
-    let viewModel = ViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: viewModel)
+            ContentView(viewModel: ViewModel())
         }
     }
 }

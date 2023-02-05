@@ -2,7 +2,7 @@ import SwiftUI
 import ViewModel
 
 struct ContentView<ViewModel: ViewModelDowladable>: View {
-    @ObservedObject var viewModel: ViewModel
+    @StateObject var viewModel: ViewModel
     
     var body: some View {
         ZStack {
