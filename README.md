@@ -1,12 +1,14 @@
 # Result Builder in Swift for MVVM Pattern 
 
-(The letter was first published [here](https://www.codeproject.com/Tips/5353219/Result-Builder-in-Swift-for-MVVM-Pattern))
+The letter was published [here](https://www.codeproject.com/Tips/5353219/Result-Builder-in-Swift-for-MVVM-Pattern) and [here](https://medium.com/@sergeykrotkih/result-builder-in-swift-for-mvvm-pattern-772dcb0cdb48).
+The source code is presented in this repository.
 
 ## Introduction ##
 
-As known, SwiftUI uses *@viewBuilder* for building UI via views. *@viewBuilder* is an implementation of the [result builder](https://github.com/apple/swift-evolution/blob/main/proposals/0289-result-builders.md#motivation) which was implemented in Swift 5.4. 
-There are other examples of using result builder [here](https://github.com/carson-katri/awesome-result-builders).
-Let me give you another example of using result builder for the MVVM pattern.
+As known, SwiftUI uses *@viewBuilder* for building UI via views. *@viewBuilder* is an implementation of the
+Result builder. You can find out more about it by reading Result builder proposal at the [Swift Evolution proposals website](https://github.com/apple/swift-evolution/blob/main/proposals/0289-result-builders.md). 
+There are other examples of using Result builder [here](https://github.com/carson-katri/awesome-result-builders).
+Let me give you another example of using Result builder for the MVVM pattern.
 
 ## Traditional MVVM implementation
 
@@ -160,7 +162,7 @@ public extension ViewModel {
     }
 }
 ```
-*ViewModelBuilder* gives us the ability to rewrite the *viewController* with a new domain-specific language (DSL):
+*@ViewModelBuilder* gives us the ability to rewrite the *ViewController* with a new domain-specific language (DSL):
 
 ```swift
 class ViewController: UIViewController {
