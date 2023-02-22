@@ -1,7 +1,8 @@
 # Result Builder in Swift for MVVM Pattern 
 
-The letter was published [here](https://www.codeproject.com/Tips/5353219/Result-Builder-in-Swift-for-MVVM-Pattern) and [here](https://medium.com/@sergeykrotkih/result-builder-in-swift-for-mvvm-pattern-772dcb0cdb48).
-The source code is presented in this repository.
+The letter first published at the [Medium.com](https://medium.com/@sergeykrotkih/result-builder-in-swift-for-mvvm-pattern-772dcb0cdb48). Follow me for more content like this and don't forget to drop a clap if you like it :)
+Another publish at the [CodeProject](https://www.codeproject.com/Tips/5353219/Result-Builder-in-Swift-for-MVVM-Pattern)
+My [Linkedin profile](https://www.linkedin.com/in/serhii-krotkykh-2746a420/)
 
 ## Introduction ##
 
