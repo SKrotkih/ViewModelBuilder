@@ -257,6 +257,11 @@ Learn more about the *@ViewModelBuilder* here(https://github.com/SKrotkih/Twilio
 
 Thank you!
 
+## Requirements
+
+- Xcode 14+
+- Swift 5.7
+
 ## History ##
 
 - 28th January, 2023: Initial version
